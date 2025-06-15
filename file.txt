@@ -1,0 +1,9 @@
+Routes 
+Method
+
+ post   ==>api/register
+ post   ==>api/login    
+ post   ==>api/createTodo
+ post   ==>api/update
+ get    ==>api/todos           get all todos
+ 
