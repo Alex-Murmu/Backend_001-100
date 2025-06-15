@@ -46,13 +46,21 @@ backend/
    ```bash
    git clone https://github.com/Alex-Murmu/Backend_001-100.git
    cd Backend_001-100
-
+```
 
 2. **Install dependencies**
+  ```bash
 npm install
+```
+3 **.Create a .env file in the root directory**
+```bash
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+```
 
-3.Create a .env file in the root directory
 
-4.Start the server
+4.**Start the server**
+```bash 
 npm run dev   # If using nodemon
-
+```
